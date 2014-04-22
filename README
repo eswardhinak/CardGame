@@ -1,0 +1,39 @@
+This program simulates a deck of cards that can be shuffled, dealt from and reordered back to the original deck. It was written by Eswar Dhinakaran.
+
+Instructions on how to run
+-------------------------------
+
+To run the main program, download
+		main.c
+		Dealer.c
+		Dealer.h
+		Makefile
+Then type 'make' in terminal after cding to the directory
+you have downloaded the aforementioned files and <Enter>
+Then run the executable ./CardGame
+
+To run the unit test for create_Deck, download
+	Dealer.c
+	Dealer.h
+	unitTest_createDeck.c
+	Makefile
+Then type 'make unittest_createDeck' in terminal after cding to the directory you have downloaded the aforementioned files and <Enter>
+Then run the executable ./unitTest_createDeck
+
+To run the unit test for shuffle_Deck, download
+	Dealer.c
+	Dealer.h
+	unitTest_shuffleDeck.c
+	Makefile
+Then type 'make unittest_shuffleDeck' in terminal after cding to the directory you have downloaded the aforementioned files and <Enter>
+Then run the unit test ./unitTest_shuffleDeck
+
+To run the unit test for deal_Deck, download
+	Dealer.c
+	Dealer.h
+	unitTest_dealDeck.c
+	Makefile
+Then type 'make unittest_dealDeck' in terminal after cding to the directory you have downloaded the aforementioned files and <Enter>
+
+Then run the unit test ./unitTest_dealDeck
+
